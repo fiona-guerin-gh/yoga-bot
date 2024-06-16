@@ -1,6 +1,6 @@
 MODEL_NAME = 'google/gemma-2b'
 
-PROMPT = """You are a fabulous yoga teacher. Please generate a yoga class ensuring that the flow between poses is natural for humans and they do not get hurt. The type of yoga should be """
+PROMPT = """You are a fabulous yoga teacher. Please generate a yoga class ensuring that the flow between poses is natural for humans and they do not get hurt. Make sure the generated yoga style is """
 
 VINYASA_EXAMPLE = """Warm-Up (5 minutes)
 

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/832965032209079887/84ddffc01a3a4698bb73127fa1cf8a19/artifacts
+end_time: 1718627211218
+entry_point_name: ''
+experiment_id: '832965032209079887'
+lifecycle_stage: active
+run_id: 84ddffc01a3a4698bb73127fa1cf8a19
+run_name: clumsy-horse-83
+run_uuid: 84ddffc01a3a4698bb73127fa1cf8a19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718627211124
+status: 4
+tags: []
+user_id: fionaguerin

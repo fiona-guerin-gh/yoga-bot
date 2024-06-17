@@ -3,7 +3,7 @@ from redis import Redis
 import json
 
 app = Flask(__name__)
-redis = Redis(host='redis', port=6379, decode_responses=True)
+redis = Redis(host='localhost', port=6379, decode_responses=True)
 
     
 @app.route('/')
@@ -30,4 +30,4 @@ def generate_yoga():
     return render_template('yoga_bot.html', yoga_flow=yoga_flows[yoga_type][yoga_flow_index])
 
 if __name__ == '__main__':
-    app.run(port=5001)
+    app.run(port=5002)

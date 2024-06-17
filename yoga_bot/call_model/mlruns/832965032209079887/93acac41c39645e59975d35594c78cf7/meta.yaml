@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/832965032209079887/93acac41c39645e59975d35594c78cf7/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '832965032209079887'
+lifecycle_stage: active
+run_id: 93acac41c39645e59975d35594c78cf7
+run_name: mysterious-worm-562
+run_uuid: 93acac41c39645e59975d35594c78cf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718627762688
+status: 1
+tags: []
+user_id: fionaguerin

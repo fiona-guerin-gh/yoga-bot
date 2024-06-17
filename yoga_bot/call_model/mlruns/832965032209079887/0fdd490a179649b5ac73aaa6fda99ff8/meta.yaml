@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/832965032209079887/0fdd490a179649b5ac73aaa6fda99ff8/artifacts
+end_time: 1718627710879
+entry_point_name: ''
+experiment_id: '832965032209079887'
+lifecycle_stage: active
+run_id: 0fdd490a179649b5ac73aaa6fda99ff8
+run_name: skillful-crab-284
+run_uuid: 0fdd490a179649b5ac73aaa6fda99ff8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718627339842
+status: 4
+tags: []
+user_id: fionaguerin

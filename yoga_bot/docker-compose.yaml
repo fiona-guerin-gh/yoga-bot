@@ -1,11 +1,13 @@
 services:
-  web:
-    build: .
+  call_model:
+    build:
+        context: call_model
+        dockerfile: Dockerfile
+  generate_yoga:
+    build:
+        context: generate_yoga
+        dockerfile: Dockerfile
     ports:
-      - "8001:8001"
-    volumes:
-      - .:/yoga_bot
-    environment:
-      FLASK_DEBUG: 'true'
+      - "5001:5000"
   redis:
     image: "redis:alpine"

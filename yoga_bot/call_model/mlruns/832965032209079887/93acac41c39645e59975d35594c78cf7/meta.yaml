@@ -1,5 +1,5 @@
 artifact_uri: mlflow-artifacts:/832965032209079887/93acac41c39645e59975d35594c78cf7/artifacts
-end_time: null
+end_time: 1718628324226
 entry_point_name: ''
 experiment_id: '832965032209079887'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1718627762688
-status: 1
+status: 4
 tags: []
 user_id: fionaguerin

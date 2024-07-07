@@ -21,9 +21,7 @@
 						<input type="radio" name="YogaType" id="YogaType" value="Power Yoga"> <strong>Power Yoga: </strong>Vigorous and strength-building, for experienced yogis.</input><br/>
 					</td>
 				</tr>
-				 
-			
-           		
+				
               
 				<!----- Submit and Reset ------------------------------------------------->
 				<tr>
@@ -36,6 +34,6 @@
 			</table>
 		</form>
 
-		<h3 align="center"> {{ yoga_flow }} </h3>
+		{% autoescape false %}<h3 align="center"> {{yoga_flow}} </h3>{% endautoescape %}
 	</body>
 </html>

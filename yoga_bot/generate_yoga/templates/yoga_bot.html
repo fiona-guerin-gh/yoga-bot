@@ -1,39 +1,41 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Namaste! 😊</title>
+</head>
+<body>
+    <h2 align="center">Namaste! 😊 Ready to roll out your mat and flow? Before we begin, what kind of yoga are you feeling today?</h2>
 
-	<head>
-		<title>Namaste! 😊</title>
-	</head>
- 
-	<body>
-		<h2 align="center">Namaste! 😊Ready to roll out your mat and flow? Before we begin, what kind of yoga are you feeling today?</h2>
-		<br/>
-		<form action="/generate" method="POST"> 
-			<table align="center" cellpadding = "10">
+    <form action="/generate" method="POST">
+        <table align="center" cellpadding="10">
+            <tr>
+                <td>Please choose one:</td>
+                <td>
+                    <label>
+                        <input type="radio" name="YogaType" value="Vinyasa Yoga" required> 
+                        <strong>Vinyasa Yoga: </strong> Dynamic and fluid, connecting breath with movement.
+                    </label><br>
 
-				  
-				
-				<tr>
-					<td>Please choose one:</td>
-					<br/>
-					<td>
-						<input type="radio" name="YogaType" id="YogaType" value="Vinyasa Yoga"> <strong>Vinyasa Yoga: </strong>Dynamic and fluid, connecting breath with movement. </input><br/>
-						<input type="radio" name="YogaType" id="YogaType" value="Yin Yoga"> <strong>Yin Yoga: </strong>Slower-paced with long-held poses, targeting deep connective tissue.</input><br/>
-						<input type="radio" name="YogaType" id="YogaType" value="Power Yoga"> <strong>Power Yoga: </strong>Vigorous and strength-building, for experienced yogis.</input><br/>
-					</td>
-				</tr>
-				
-              
-				<!----- Submit and Reset ------------------------------------------------->
-				<tr>
-					<td colspan="2" align="center">
-						<input type="submit" value="Submit">
-						&nbsp;&nbsp;  <!----- to add extra space -------->
-						<input type="reset" value="Reset" onclick="location.href='/';">
-					</td>
-				</tr>
-			</table>
-		</form>
+                    <label>
+                        <input type="radio" name="YogaType" value="Yin Yoga"> 
+                        <strong>Yin Yoga: </strong> Slower-paced with long-held poses, targeting deep connective tissue.
+                    </label><br>
 
-		{% autoescape false %}<h3 align="center"> {{yoga_flow}} </h3>{% endautoescape %}
-	</body>
+                    <label>
+                        <input type="radio" name="YogaType" value="Power Yoga"> 
+                        <strong>Power Yoga: </strong> Vigorous and strength-building, for experienced yogis.
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset" onclick="location.href='/';">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    {% autoescape false %}<h3 align="center"> {{yoga_flow}} </h3>{% endautoescape %}
+</body>
 </html>

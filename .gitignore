@@ -172,5 +172,5 @@ mlruns.db
 .DS_Store
 
 # Project-specific
-yoga_bot/config/token.py
+**/token.py
 *.gguf
